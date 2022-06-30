@@ -1,0 +1,30 @@
+ 
+.Sri-Lanka {
+    width: 70px;
+    height: 23px;
+    margin: 31px 6px 38px 9px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+  }
+
+  img.IconlyLightLocation {
+    width: 24px;
+    height: 24px;
+    margin: 31px 9px 37px 0;
+    object-fit: contain;
+    background-color: #fcfcfc;
+  }
+
+  .Rectangle {
+    width: 1439px;
+    height: 130px;
+    margin: 38px 0 0 1px;
+    padding: 20px 122px 18px 35px;
+    background-color: #fdf7f6;
+  }
