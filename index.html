@@ -9,7 +9,11 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+        rel="stylesheet">
+
+
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,11 +23,15 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
 
 <body>
     <!--1ST Rectangle-->
-    <div class="notify-header text-center w-140 h-100 text-uppercase py-2 text-white small">
+    <div class="text-center w-140 h-100 text-uppercase py-2 text-white small"
+        style="background-color:var(--pink-reader) ;">
         FREE SHIPPING FOR ALL ORDERS THIS CHRISTMAS SEASON 2021
     </div>
 
@@ -31,76 +39,83 @@
 
     <!-- top heading -->
 
-    <div class="Rectangle">
-        <img src="./assets/images/iconly-light-location.png" class="IconlyLightLocation">
-        <span class="Sri-Lanka">
-            Sri Lanka
-        </span>
-        <img src="img/rhoda-logo.png" srcset="./assets/images/rhoda-logo@2x.png" class="Rhoda-logo">
+    <div class="row mx-0 align-items-center px-4 py-3">
+        <div class="col"> <img src="./assets/images/iconly-light-location.svg" class="">
+            <span class="">
+                Sri Lanka
+            </span>
+        </div>
 
-        <img src="./assets/images/iconly-light-search@2x.png" class="IconlyLightSearch">
-        <img src="./assets/images/iconly-light-profile@2x.png" class="IconlyLightProfile">
-        <span class="Sign-In">
-            Sign In
-        </span>
-        <img src="./assets/images/iconly-light-bag@2x.png" class="IconlyLightBag">
-        <span>
-            (0)
-        </span>
+        <img src="./assets/images/rhoda-logo@2x.png" height="92" width="99" class="col-auto">
+
+        <div class="col">
+            <div class="row mx-0 gx-5 justify-content-end me-5 pe-5  ">
+                <div class="col-auto border-end"> <img src="./assets/images/iconly-light-search.svg" class=""></div>
+                <div class=" col-auto border-end"> <img src="./assets/images/iconly-light-location.svg" class="">
+                    <span class="">
+                        Sign In
+                    </span>
+                </div>
+                <div class="col-auto"><img src="./assets/images/iconly-light-bag.svg" class="">
+                    <span>
+                        (0)
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 
     <!-- end of top heading -->
 
     <!-- navigation bar -->
-    <section class="navbarsec">
 
-        <div class="container ">
-            <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Ready to ship</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Wedding</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Corporate</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">RhodaSL</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="collapse justify-content-center navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ready to ship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wedding</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Corporate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">RhodaSL</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
         </div>
-    </section>
+    </nav>
+
     <!-- end of the nav bar -->
 
 
     <!-- pic -->
-    <section class="position-relative">
-        <img src="assets/images/rectangle-copy-7.png" class="img-fluid" alt="Responsive image">
-        <div class="container giftbox">
-            <h1> Get Your Luxury </h1>
-            <h1> in a Box</h1>
-            <h6>Explore our collection of Curated Gift Boxes for any Occasion</h6>
+    <section class="position-relative d-flex justify-content-center">
+        <img src="assets/images/rectangle-copy-7.png" class="w-100" alt="" style="min-height:549px; object-fit: cover;">
+        <div class="container position-absolute top-50 translate-middle-y">
+            <p class="display-3 lh-1 mb-4 pb-2 text-white">Get Your Luxury <br>in a Box</p>
+            <p class="text-white mb-0">Explore our collection of Curated Gift Boxes for any Occasion</p>
 
         </div>
     </section>

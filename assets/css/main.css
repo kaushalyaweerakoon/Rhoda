@@ -2,23 +2,39 @@
 
     --pink-reader: #e6d1d3;
     --body-sg-color:#fdf7f6;
-    --popins-font:'popins', sans-serf;
-
-
+    --popins-font:'Poppins', sans-serf;
+    --play-fair:'Playfair Display', serif;
+    
 }
 
 p, div, a{
   font-family: var(--popins-font);
-
 }
+
 
 body{
   background-color: var (---body-bg-color) !important;
 }
 
+.nav-item{
+  padding: 0 29px;
+}
+
+.nav-item .nav-link{
+  padding: 0 !important;
+  font-size: 15px;
+  color: #000;
+}
+
+.display-3{
+  font-family: var(--play-fair);
+}
+
+
+
+/* 
 .notify-header{
   background-color: #e6d1d3;
-
 }
 
 .rhoda-logo{
@@ -50,7 +66,7 @@ img.IconlyLightLocation {
   height: 24px;
   margin: 31px 9px 37px 0;
   object-fit: contain;
-  /* background-color: #e7e4dc; */
+  
 }
 
 
@@ -81,7 +97,6 @@ img.IconlyLightSearch {
   height: 19px;
   margin: 34px 34px 39px 117px;
   object-fit: contain;
-  /* background-color: #a08241; */
 }
 
 img.IconlyLightProfile {
@@ -89,7 +104,7 @@ img.IconlyLightProfile {
   height: 22px;
   margin: 32px 9px 38px 30px;
   object-fit: contain;
-  /* background-color: #a08241; */
+
 }
 
 .Sign-In {
@@ -112,17 +127,17 @@ img.IconlyLightBag {
   width: 22px;
   height: 22px; 
   object-fit: contain;
-  /* background-color: #a08241; */
+  background-color: #a08241;
 }
  
 
-/* ====================navbarsec========================================================== */
+====================navbarsec============================
 .navbarsec{
   background-color: #fdf7f6 !important; 
 }
- 
+  */
 
-/* ============================================================================== */
+
 
 
  
