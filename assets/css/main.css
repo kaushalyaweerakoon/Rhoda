@@ -1,4 +1,39 @@
- 
+ :root{
+
+    --pink-reader: #e6d1d3;
+    --body-sg-color:#fdf7f6;
+    --popins-font:'popins', sans-serf;
+
+
+}
+
+p, div, a{
+  font-family: var(--popins-font);
+
+}
+
+body{
+  background-color: var (--body-sg-color) !important;
+}
+
+.notify-header{
+  background-color: #e6d1d3;
+
+}
+
+.rhoda-logo{
+   mix-blend-mode: multiply;
+   width: 99px;
+   height: 92px;
+}
+
+.raw-item{
+  padding: 8 29px;
+  color: var(text-v);
+}
+
+
+/* 
 .Sri-Lanka {
     width: 70px;
     height: 23px;
@@ -12,6 +47,8 @@
     letter-spacing: normal;
     color: #000;
   }
+
+ 
 
   img.IconlyLightLocation {
     width: 24px;
@@ -27,4 +64,4 @@
     margin: 38px 0 0 1px;
     padding: 20px 122px 18px 35px;
     background-color: #fdf7f6;
-  }
+  } */
