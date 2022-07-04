@@ -3,14 +3,12 @@
     --pink-reader: #e6d1d3;
     --body-sg-color:#fdf7f6;
     --popins-font:'Poppins', sans-serf;
-    --play-fair:'Playfair Display', serif;
-    
+    --play-fair:'Playfair Display', serif; 
 }
 
 p, div, a{
   font-family: var(--popins-font);
 }
-
 
 body{
   background-color: var (---body-bg-color) !important;
@@ -30,112 +28,97 @@ body{
   font-family: var(--play-fair);
 }
 
-
-
-/* 
-.notify-header{
-  background-color: #e6d1d3;
+.text-center{
+  --play-fir:var(--play-fair);
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  color: #a08241; 
 }
 
-.rhoda-logo{
-   mix-blend-mode: multiply;
-   width: 99px;
-   height: 92px;
+.features-display-logo{
+  width: 10%; 
+  margin: 20px;
+  padding: 20px;
+  opacity: 0.62;
 }
 
-.raw-item{
-  padding: 8 29px;
-  color: var(text-v);
+.line{   
+  border: 1px;
+  background-color: #b38185;
+  margin-top: 21px;
+  width: 113px;
+  height: 5px; 
+}
+/* .text-center-1{
+  width: 1440px;
+  height:6790px;
+  font-family: PlayfairDisplay;
+  font-size: 36px;
+  letter-spacing: 0.78px;
+  color: #a08241;
+} */
+
+.features-display-logo-1{
+  width: 114px;
+  height: 64px;
+  margin: 7px 0 6px 118px;
+  color: #394149;
 }
 
-.giftbox{
-  margin-top: -350px;
-  color: #fdf7f6;
+.features-display-logo-2{
+  width: 114px;
+  height: 26px;
+  opacity: 0.62;
+  margin: 7px 0 6px 118px;
+  color: #394149;
 }
 
-
-.Rectangle {
-  width: 100%;
-  height: 130px;  
-  padding: 20px 122px 18px 35px;
-  background-color: #fdf7f6;
-}
-
-img.IconlyLightLocation {
-  width: 24px;
-  height: 24px;
-  margin: 31px 9px 37px 0;
-  object-fit: contain;
+.features-display-logo-3{
+  width: 95px;
+  height: 45px;
+  opacity: 0.66;
+  margin: 7px 0 6px 118px;
+  color: #394149;
   
 }
 
-
-.Sri-Lanka {
-  width: 70px;
-  height: 23px;
-  margin: 31px 6px 38px 9px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000;
-}
-
-img.Rhoda-logo {
-  width: 99px;
-  height: 92px;
-  margin: 0 36px 0 430px;
-  object-fit: contain;
+.features-display-logo-4{
+  width: 78px;
+  height: 78px;
+  margin: 7px 0 6px 118px;
   mix-blend-mode: multiply;
+  opacity: 0.62;
+  color: #394149;
 }
 
-img.IconlyLightSearch {
-  width: 19px;
-  height: 19px;
-  margin: 34px 34px 39px 117px;
+.features-display-logo-5{
+  width: 89px;
+  height: 57px;
+  margin: 7px 0 6px 118px;
+  opacity: 0.62;
+  color: #394149;
+}
+
+.features-display-logo-6{
+  width: 104px;
+  height: 65px;
+  margin: 7px 0 6px 118px;
   object-fit: contain;
+  opacity: 0.62;
+  color: #394149;
 }
 
-img.IconlyLightProfile {
-  width: 22px;
-  height: 22px;
-  margin: 32px 9px 38px 30px;
-  object-fit: contain;
-
+.rectangle-copy{
+  width: 375px;
+  height: 213px;
+  margin: 40px 16px 22px 18px;
+  background-color: #ffffff;
 }
 
-.Sign-In {
-  width: 56px;
-  height: 26px;
-  margin: 31px 21px 35px 9px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000;
-}
-
-
-
-img.IconlyLightBag {
-  width: 22px;
-  height: 22px; 
-  object-fit: contain;
-  background-color: #a08241;
-}
- 
-
-====================navbarsec============================
-.navbarsec{
-  background-color: #fdf7f6 !important; 
-}
-  */
 
 
 
