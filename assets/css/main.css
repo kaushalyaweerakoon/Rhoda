@@ -46,11 +46,9 @@ body{
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: normal;
   letter-spacing: 0.78px;
   color: #000000; 
 } */
-
 
 
 .features-display-logo{
@@ -80,3 +78,89 @@ body{
   height: 213px;
   margin: 40px 16px 22px 18px;
 }
+
+.sale{
+    width: 91px;
+    height: 42px;
+    margin: 0 193px 166px 0;
+    object-fit: contain;
+}
+
+.image-Rectangle-2 {
+  width: 284px;
+  height: 286px;
+  margin: 0 20px 23px 21px;
+  object-fit: contain;
+}
+
+.Quck-view-Rectangle {
+  width: 125px;
+  height: 44px;
+  margin: 0 8px 0 0;
+  padding: 9px 18px;
+  border: solid 1.5px #b38185;
+}
+.Quick-View {
+  width: 89px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 16px;
+  color: #b38185;
+}
+
+.Add-to-Cart-rectangle {
+  width: 125px;
+  height: 44px;
+  margin: 0 0 0 8px;
+  padding: 9px 17px 9px 14px;
+  border: solid 1.5px #a08241;
+  background-color: #a08241;
+}
+
+.Add-to-Cart {
+  width: 94px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 16px;
+  color: #fff;
+}
+
+.Face-Glow-Routine-01 {
+  width: 184px;
+  height: 29px;
+  margin: 23px 121px 0 0;
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #000;
+}
+
+.Gift-Pack {
+  width: 69px;
+  height: 26px;
+  margin: 52px 236px 16px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: normal;
+  color: #797979;
+}
+
+.price{
+  width: 65px;
+  height: 26px;
+  margin: 16px 240px 5px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: normal;
+  color: #b38185;
+}
+/* 
+.company{
+  width: 134px;
+  height: 25px;
+  margin: 5px 171px 0 0;
+  font-family: Poppins;
+  font-size: 15px;
+  letter-spacing: normal;
+  color: #000;
+} */

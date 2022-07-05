@@ -1,0 +1,8 @@
+<svg width="91" height="42" viewBox="0 0 91 42" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E4B0B4" d="M0 0h91v42H0z"/>
+        <text font-family="Poppins-Medium, Poppins" font-size="14" font-weight="400" fill="#FFF">
+                    <tspan x="28.5" y="24">Sale</tspan>
+                </text>
+    </g>
+</svg>
