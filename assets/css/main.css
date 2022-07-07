@@ -130,3 +130,9 @@ body{
     min-width: 1198px;
   } 
 }
+
+@media (min-width: 1366px) and (max-width: 768px){
+  .container{
+   min-width: 1198px;
+ } 
+}
