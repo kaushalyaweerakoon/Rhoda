@@ -6,7 +6,6 @@
     --play-fair:'Playfair Display', serif; 
     --brown-text:#a08241;
     --dark-rose:#b38185;
-    --heading-color: #a08241;
 }
 
 p, div, a{
@@ -121,14 +120,9 @@ body{
   color:var(--dark-rose);
 }
 
+
 @media (min-width: 1400px) and (max-width: 1900px){
    .container{
     min-width: 1198px;
   } 
-}
-
-@media (min-width: 1366px) and (max-width: 768px){
-  .container{
-   min-width: 1198px;
- } 
 }
