@@ -6,15 +6,16 @@
     --play-fair:'Playfair Display', serif; 
     --brown-text:#a08241;
     --dark-rose:#b38185;
-
+    --heading-color: #a08241;
 }
 
 p, div, a{
+  font-weight: 300;
   font-family: var(--popins-font);
 }
 
 body{
-  background-color: var (---body-bg-color) !important;
+  background-color: var(--body-sg-color)!important;
 }
 
 .nav-item{
@@ -31,6 +32,14 @@ body{
   font-family: var(--play-fair);
 }
 
+.fs-18-px{
+  font-size: 18px;
+}
+
+.fw-500{
+  font-weight: 500;
+}
+
 .logos-img {
   max-width: 92px;
   max-height: 99px;
@@ -39,178 +48,85 @@ body{
 }
 
 .title{
-  font-size: 36px;
-  /* font-size: clamp(29px 3vw 16px); */
+  font-size: clamp(29px, 3vw, 36px);
+  text-align: center;
+  margin-bottom: clamp(40px, 5vw, 71px);
   font-family: var(--play-fair);
   color: var(--brown-text);
-  text-align: center;
-  margin-bottom: (40px 5vw 71px);
 }
 
-.title-after{
+.title::after{
   content: "";
-  width: 113px;
   height: 5px;
-  background: var(--dark-rose);
-  margin: 21px auto;
+  width: 113px;
   display: flex;
+  margin: 21px auto 0;
+  background-color: var(--dark-rose);
 }
-/* 
-.title{
-  font-size: 36px;
-  font-family: var(--playfair-fonts);
-  color: var(--heading-color);
-  text-align: center;
-  margin-bottom: 71px;
-} */
-
 
 .logo-row img{
   width: 100%;
-  max-width: 102px;
+  max-width: 100px;
+  mix-blend-mode: multiply;
 }
 
-@media (min-width: 1400px) and (max-width: 1900px){
-  .container{
-   min-width: 1198px;
- } 
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-
-
-
-
-
-/* -------------------- */
-
-.text-center{
-  --play-fir:var(--play-fair);
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.78px;
-  color: #a08241; 
-  text-align: center
+.text-white-small{
+  color: white;
 }
 
-/* .text-center-1{
-   --play-fir:var(--play-fair);
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: 0.78px;
-  color: #000000; 
-} */
-
-
-.features-display-logo{
-  width: 10%; 
-  margin: 20px;
-  padding: 20px;
-  opacity: 0.62;
+.featured-Categories-rows a:hover{
+  font-weight: 500px;
+  text-underline-offset: 3px;
+  text-decoration: underline !important;
+  color: var(--dark-rose) !important;
 }
 
-.line{   
-  border: 1px;
-  background-color: #b38185;
-  margin-top: 21px;
-  width: 113px;
-  height: 5px; 
+.status-div{
+  width: 91px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-rose);
 }
 
-
-
-.rectangle-copy{
-  width: 375px;
-  height: 213px;
-  margin: 40px 16px 22px 18px;
+.image-container:hover .buttons-div{
+  bottom: 0;
 }
 
-.sale{
-    width: 91px;
-    height: 42px;
-    margin: 0 193px 166px 0;
-    object-fit: contain;
+.quick-views{
+  border: solid 1.5px var(--dark-rose);
 }
 
-.image-Rectangle-2 {
-  width: 284px;
-  height: 286px;
-  margin: 0 20px 23px 21px;
-  object-fit: contain;
+.add-to-cart{
+  border: solid 1.5px var(--heading-color);
+  background: var(--heading-color);
 }
 
-.Quck-view-Rectangle {
-  width: 125px;
-  height: 44px;
-  margin: 0 8px 0 0;
-  padding: 9px 18px;
-  border: solid 1.5px #b38185;
-}
-.Quick-View {
-  width: 89px;
-  height: 26px;
-  font-family: Poppins;
-  font-size: 16px;
-  color: #b38185;
+.image-container:hover.buttons-div{
+  bottom: 0;
 }
 
-.Add-to-Cart-rectangle {
-  width: 125px;
-  height: 44px;
-  margin: 0 0 0 8px;
-  padding: 9px 17px 9px 14px;
-  border: solid 1.5px #a08241;
-  background-color: #a08241;
-}
-
-.Add-to-Cart {
-  width: 94px;
-  height: 26px;
-  font-family: Poppins;
-  font-size: 16px;
-  color: #fff;
-}
-
-.Face-Glow-Routine-01 {
-  width: 184px;
-  height: 29px;
-  margin: 23px 121px 0 0;
-  font-family: Poppins;
-  font-size: 18px;
-  letter-spacing: 0;
-  color: #000;
-}
-
-.Gift-Pack {
-  width: 69px;
-  height: 26px;
-  margin: 52px 236px 16px 0;
-  font-family: Poppins;
-  font-size: 16px;
-  letter-spacing: normal;
+.secondary-text-color{
   color: #797979;
 }
 
-.price{
-  width: 65px;
-  height: 26px;
-  margin: 16px 240px 5px 0;
-  font-family: Poppins;
-  font-size: 16px;
-  letter-spacing: normal;
-  color: #b38185;
+.text-color{
+  color:var(--dark-rose);
 }
-/* 
-.company{
-  width: 134px;
-  height: 25px;
-  margin: 5px 171px 0 0;
-  font-family: Poppins;
-  font-size: 15px;
-  letter-spacing: normal;
-  color: #000;
-} */
+
+@media (min-width: 1400px) and (max-width: 1900px){
+   .container{
+    min-width: 1198px;
+  } 
+}
