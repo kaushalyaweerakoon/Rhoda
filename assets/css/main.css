@@ -113,10 +113,6 @@ body{
   background: var(--heading-color);
 }
 
-.image-container:hover.buttons-div{
-  bottom: 0;
-}
-
 .secondary-text-color{
   color: #797979;
 }
