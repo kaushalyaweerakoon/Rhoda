@@ -6,6 +6,7 @@
     --play-fair:'Playfair Display', serif; 
     --brown-text:#a08241;
     --dark-rose:#b38185;
+    --heading-color: #a08241;
 }
 
 p, div, a{
@@ -112,6 +113,10 @@ body{
   background: var(--heading-color);
 }
 
+.image-container:hover.buttons-div{
+  bottom: 0;
+}
+
 .secondary-text-color{
   color: #797979;
 }
@@ -120,9 +125,76 @@ body{
   color:var(--dark-rose);
 }
 
-
 @media (min-width: 1400px) and (max-width: 1900px){
    .container{
     min-width: 1198px;
   } 
 }
+
+@media (min-width: 1366px) and (max-width: 768px){
+  .container{
+   min-width: 1198px;
+ } 
+}
+
+.footer{
+  height: 825px;
+  background-color: #b38185;
+}
+
+.rhoda-heading{
+  padding: 38px 50px 39px 0px;
+  font-family: var(--poppins-font);
+  font-size: 34px;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.rect-1{
+  background-color: #b38185;
+}
+
+.sri-lanka{
+  font-family: Poppins;
+  font-size: 17px;
+  color: #fff;
+}
+
+.menu{
+  font-family: Poppins;
+  font-size: 17px;
+  color: #fff;
+}
+
+.shop{
+  font-family: var(--poppins-fonts);
+  font-size: 17px;
+  color: #fff;
+}
+
+.wedding {
+  font-family: var(--poppins-fonts);
+  font-size: 17px;
+  color: #fff;
+}
+
+.newsletter {
+  font-family: var(--poppins-fonts);
+  font-size: 17px;
+  color: #fff;
+}
+
+.footer-text{
+  font-family: var(--poppins-fonts);
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+
+
+
+
+
+
+
+
