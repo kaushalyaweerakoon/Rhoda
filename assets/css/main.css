@@ -31,6 +31,10 @@ body{
 .display-3{
   font-family: var(--play-fair);
 }
+.display-4{
+  font-family: var(--play-fair);
+  font-size: 34px;
+}
 
 .fs-18-px{
   font-size: 18px;
@@ -168,7 +172,17 @@ body{
   color: #fff !important;
 }
 
+.hr{
+  color: #fff;
+}
 
+
+.emailicon {
+  padding-left: 25px;
+  background: url("mail2.svg") no-repeat left;
+  background-size: 20px;
+  border: 0px solid;
+}
 
 
 
