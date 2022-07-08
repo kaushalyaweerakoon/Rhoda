@@ -18,6 +18,11 @@ body{
   background-color: var(--body-sg-color)!important;
 }
 
+::placeholder {
+  color: #fff !important;
+  opacity: 1;  
+}
+
 .nav-item{
   padding: 0 29px;
 }
@@ -141,6 +146,8 @@ body{
  } 
 }
 
+/* ================footer================== */
+
 .footer{
   height: 825px;
   background-color: #b38185;
@@ -159,23 +166,35 @@ body{
 }
 
 .footer-menu{
+  font-weight: 500;
   font-family: var(--poppins-font);
   font-size: 17px;
   color: #fff;
+  list-style: none; 
+  padding: 19px 0px;
 }
 
 .text-reset{
   font-size: 16px;
+  margin: 5px ;
   font-family: var(--poppins-font);
   font-size: 14px;
   font-weight: 300;
   color: #fff !important;
+  text-decoration: none;
+  list-style: none;
 }
+
+.followus{
+  margin: 0 16px 0 0 ;
+}
+
+
+/* ==================hr tag============= */
 
 .hr{
   color: #fff;
 }
-
 
 .emailicon {
   padding-left: 25px;
