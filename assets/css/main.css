@@ -7,6 +7,8 @@
     --brown-text:#a08241;
     --dark-rose:#b38185;
     --heading-color: #a08241;
+    --font-size-18px: 18px;
+    --font-size-36px: clamp(28px 3vw 36px);
 }
 
 p, div, a{
@@ -40,6 +42,9 @@ body{
   font-family: var(--play-fair);
   font-size: 34px;
 }
+.play-fair-font{
+  font-family: var(--play-fair);
+}
 
 .fs-18-px{
   font-size: 18px;
@@ -49,6 +54,9 @@ body{
   font-weight: 500;
 }
 
+.fw-200{
+  font-weight: 200;
+}
 .logos-img {
   max-width: 92px;
   max-height: 99px;
@@ -83,6 +91,14 @@ body{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.title-common{
+  font-family: var(--play-fair);
+  font-size: var(--font-size-36px);
+  margin: 0 40px 9px 43px;
+  font-size: 36px;
+  color: #fff;
 }
 
 .text-white-small{
@@ -133,6 +149,23 @@ body{
 .text-color{
   color:var(--dark-rose);
 }
+
+a.btn{
+  font-family: var(--popins-font);
+  line-height: 1;
+  font-size: var(--font-size);
+  border: solid 1.5px #fff;
+  border-radius: 0;
+  padding: 0.8rem 0.5rem;
+  min-width: 140px;
+  font-weight: 500;
+}
+
+a.btn.text-white{
+  border: solid 1.5px var(--body-sg-color);
+}
+
+
 
 @media (min-width: 1400px) and (max-width: 1900px){
    .container{
