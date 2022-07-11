@@ -91,6 +91,13 @@ body{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* margin-top: 94px; */
+}
+.image-Elegance-Super{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 94px;
 }
 
 .title-common{
@@ -165,6 +172,29 @@ a.btn.text-white{
   border: solid 1.5px var(--body-sg-color);
 }
 
+/* Elegance Super Curated */
+
+.Elegance-Super{
+  width: 393px;
+  height: 140px;
+  margin: 41px 118px 29px 14px;
+  font-family: var(--play-fair);
+  font-size: 53px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #a08241;
+}
+
+.Paullum-text{  
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;}
+
+  /* Elegance Super Curated */
 
 
 @media (min-width: 1400px) and (max-width: 1900px){
@@ -241,3 +271,19 @@ a.btn.text-white{
 
 
 
+
+
+.elegance-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.elegance-image2 {
+  /* padding: 0px 0px 94px 177px; */
+  position: absolute;
+  top: 20%;
+  left: 39%;
+  /* transform: translate(-50%, -50%); */
+}
