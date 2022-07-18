@@ -3,4 +3,14 @@
 @media (min-width: 992px) {
     .overlap-image{
     width: 119%;
-  }}
+  }
+
+  .testimonialSwiper .swiper-slide-active .row{
+    justify-content: start !important;
+  }
+  
+  .testimonialSwiper .swiper-slide-active{
+    border-right: solid 2px var(--brown-text);
+  }
+
+}

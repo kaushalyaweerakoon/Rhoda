@@ -21,6 +21,9 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
+    <!-- swipperJS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styles.lg.css">
@@ -70,7 +73,7 @@
         <div class="collapse justify-content-center navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Shop</a>
@@ -91,10 +94,10 @@
                     <a class="nav-link" href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link" href="contactus.html">Contact us</a>
                 </li>
             </ul>
         </div>
@@ -234,36 +237,28 @@
     <!-- section 5 -->
 
     <!-- section 6-->
-
-    <section class="container">
-        <div class="row" style="height: 100px"></div>
+    <section class="container mt-5 pt-5">
         <div class="row">
-            <div class="elegance-image">
-                <img class="image" src="assets/images/19.png">
-                <!-- <div class="elegance-image2">
-                    <img class="image" src="assets/images/9.png">
-                </div> -->
+            <div class="col-12">
+                <img class="image" src="assets/images/19.png" alt="">
+            </div>
+            <div class="tea-banner col-6 col-lg-5 me-md-5 mt-lg-5 mt-md-5 pt-4 ">
+                <img class="image pe-3 pe-lg-5 pe-md-5 pe-sm-5 pe-xl-1 pe-xl-5 pe-xxl-4"
+                    src="assets/images/9.png" alt="" style="max-width: 574px; ">
             </div>
         </div>
-        <div class="row" style="margin-top:100px;">
-
-            <p class="Elegance-Super">Elegance Super Curated</p>
-            <p class="Paullum-text">Paullum deliquit, ponderibus modulisque suis ratio utitur.<br>
-                Contra legem facit qui id facit quod lex prohibet. Paullum<br> deliquit ponderibus modulisque suis ratio
-                utitur.
+        <div class="row pt-5 pt-lg-4 ms-lg-1">
+            <p class="display-4 elegance-super-surated">Elegance Super<br>Curated</p>
+            <p class="pt-3 mt-1" style="font-family:var(--popins-font); text-decoration: none;">
+                Paullum deliquit. ponderibus modulisque suis ratio utitur.<br>
+                Contra legem facit qui id facit quod lex prohibet. Paullum<br>
+                deliquit ponderibus modulisque suis ratio utitur.
             </p>
+            <a href="" role="button" class="button-2 shop-now-2 bg-transparent ms-lg-3 mt-4 ms-2">Shop Now</a>
+        </div>
 
-        </div>
-        <div class="row" style="margin-top:-70px;">
-            <div class="image-Elegance-Super">
-                <a href="" class="text-decoration-none">
-                    <div class="quick-views text-center p-2 col-md-2">
-                        <span class="text-color fw-500">Shop Now</span>
-                    </div>
-                </a>
-            </div>
-        </div>
     </section>
+
     <!--section 6 -->
 
     <!-- section  7-->
@@ -645,8 +640,68 @@
     <!-- section 8-->
 
     <!-- section 9 -->
-    <section class="container pt-5">
+    <section class="container mb-5">
         <p class="title">Testimonials</p>
+        <div class="swiper testimonialSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="row justify-content-center justify-content-lg-end gy-4 py-lg-5">
+                        <div class="col-auto pe-md-4">
+                            <div class="ratio ratio-1x1 border-0 rounded-circle" style="width: 91px">
+                                <img src="./assets/images/oval@2x.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md col-lg-8 px-lg-4">
+                            <p class="fs-15-px mb-4 ">Fabio vel iudice vincam, sunt in culpa qui officia. Unam incolunt
+                                Belgae, aliam Aquitani,
+                                tertiam. Praeterea iter est quasdam res quas ex communi. Vivamus sagittis lacus vel
+                                augue laoreet rutrum faucibus. Morbi odio eros, volutpat ut pharetra vitae, lobortis sed
+                                nibh. Qui ipsorum lingua Celtae, nostra Galli appellantur.</p>
+                            <p class="fs-17-px">Amy Joanne</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="row justify-content-center justify-content-lg-end gy-4 py-lg-5">
+                        <div class="col-auto pe-md-4">
+                            <div class="ratio ratio-1x1 border-0 rounded-circle" style="width: 91px">
+                                <img src="./assets/images/oval-copy-4@2x.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md col-lg-8 px-lg-4">
+                            <p class="fs-15-px mb-4 ">Fabio vel iudice vincam, sunt in culpa qui officia. Unam incolunt
+                                Belgae, aliam Aquitani, tertiam. Praeterea iter est quasdam res quas ex communi. Vivamus
+                                sagittis lacus vel augue laoreet rutrum faucibus. Morbi odio eros, volutpat ut pharetra
+                                vitae, lobortis sed nibh. Qui ipsorum lingua Celtae, nostra Galli appellantur.</p>
+                            <p class="fs-17-px">Amy Joanne</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="row justify-content-center justify-content-lg-end gy-4 py-lg-5">
+                        <div class="col-auto pe-md-4">
+                            <div class="ratio ratio-1x1 border-0 rounded-circle" style="width: 91px">
+                                <img src="./assets/images/oval@2x.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md col-lg-8 px-lg-4">
+                            <p class="fs-15-px mb-4 ">Fabio vel iudice vincam, sunt in culpa qui officia. Unam incolunt
+                                Belgae, aliam Aquitani,
+                                tertiam. Praeterea iter est quasdam res quas ex communi. Vivamus sagittis lacus vel
+                                augue laoreet rutrum faucibus. Morbi odio eros, volutpat ut pharetra vitae, lobortis sed
+                                nibh. Qui ipsorum lingua Celtae, nostra Galli appellantur.</p>
+                            <p class="fs-17-px">Amy Joanne</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d d-flex justify-content-center my-4">
+                <div class="col-auto swiper-button-prev">Prev</div>
+                <div class="col-auto swiper-button-next">Next</div>
+            </div>
+        </div>
     </section>
     <!-- section 9 -->
 
@@ -800,19 +855,19 @@
                 <div class="col-md">
                     <div class="row">
                         <div class="col-auto">
-                            <img src="assets/images/fb.svg" alt="">
+                            <img src="assets/images/twitter.svg" alt="">
                         </div>
                         <div class="col-auto">
-                            <img src="assets/images/fb.svg" alt="">
+                            <img src="assets/images/twitter.svg" alt="">
                         </div>
                         <div class="col-auto">
-                            <img src="assets/images/fb.svg" alt="">
+                            <img src="assets/images/twitter.svg" alt="">
                         </div>
                         <div class="col-auto">
-                            <img src="assets/images/fb.svg" alt="">
+                            <img src="assets/images/twitter.svg" alt="">
                         </div>
                         <div class="col-auto">
-                            <img src="assets/images/fb.svg" alt="">
+                            <img src="assets/images/twitter.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -833,6 +888,13 @@
             <!--/ footer section - 03 -->
         </div>
     </footer>
+
+    <!-- swipperJS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom script -->
+    <script src="./assets/js/main.js"></script>
+
 
 </body>
 
