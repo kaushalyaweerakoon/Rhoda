@@ -408,13 +408,14 @@ color: var(--dark-rose);
   color: #a9a9a9;
 }
 
-.blog-home{
-  color: #a9a9a9;
+.hover-nav{
+  color: #a9a9a9 !important;
 }
 
-.blog-blog{
-  color: black;
+.givehim{
+  color: #000000  !important;
 }
+
 
 
 /* contactus */
@@ -432,7 +433,18 @@ color: var(--dark-rose);
 
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text],input[type=email], select{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  /* margin-top: 6px; */
+  margin-bottom: -4px;
+  border-style: solid !important;
+  border-color: var(--dark-rose) !important;
+  border-radius:0rem !important;
+  height: 76px;
+}
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -440,6 +452,8 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   border-style: solid !important;
   border-color: var(--dark-rose) !important;
+  border-radius:0rem !important;
+  height: 282px;
 }
 
 input[type=submit] {
@@ -455,6 +469,7 @@ input[type=submit] {
   font-family: var(--popins-font);
   font-size: 13px;
   color: #a9a9a9;
+  float: right;
 }
 
 
@@ -472,5 +487,10 @@ input[type=submit] {
   clear: both;
 }
 
-
-
+.submit{
+  width: 190px;
+  height: 63px;
+  background-color: var(--brown-text);
+  border-color: var(--brown-text);
+  color: #fff;
+}

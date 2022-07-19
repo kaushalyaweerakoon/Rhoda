@@ -106,60 +106,82 @@
     <!-- end of the nav bar -->
 
     <!-- contact us -->
-    <section class="container">
-        <ul class="navbar nav d-inline-flex mx-auto mt-5">
-            <li class="">
-                <a class="text-decoration-none blog-home" href="#">Home /</a>
-            </li>
-            <li class="mx-2">
-                <a class="text-decoration-none blog-blog" href="#">Contact us</a>
-            </li>
-        </ul>
+    <div class="container">
+        <form class="">
+            <ul class="navbar nav d-inline-flex mx-auto mt-5">
+                <li class="">
+                    <a class="text-decoration-none blog-home" href="#">Home /</a>
+                </li>
+                <li class="mx-2">
+                    <a class="text-decoration-none blog-blog" href="#">Contact us</a>
+                </li>
+            </ul>
 
-        <p class="display-6 cus-text mt-3 ">Contact us</p>
-       
-        <p class="blog-text-in mb-5 pb-1 mw-100">Paullum deliquit, ponderibus modulisque suis ratio utitur. <br>
-            Contra legem facit qui id facit quod lex prohibet. Paullum deliquit <br> ponderibus modulisque suis
-            ratio utitur.</p>
+            <p class="display-6 cus-text mt-3 ">Contact us</p>
 
-        <!-- form -->
-        <div class="row ">
-            <div class="col-md-6">
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <p class="blog-text-in mb-5 pb-1 mw-100">Paullum deliquit, ponderibus modulisque suis ratio utitur. <br>
+                Contra legem facit qui id facit quod lex prohibet. Paullum deliquit <br> ponderibus modulisque suis
+                ratio utitur.</p>
 
-                <label for="email">Email Address</label>
-                <label style="float: right;" class="req">Required</label>
-                <input type="text" placeholder="company name" name="" id="email" required>
+        </form>
+        <!-- <form> -->
 
-                <label for="Company">Company Name</label>
-                <input type="text" id="" name="" placeholder="Your name..">
+        <div class="">
+            <form>
+                <div class="row row-cols-1 row-cols-md-2">
+
+                    <div class="col mb-3">
+                        <label for="fullname" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="Your name.."
+                            aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="col mb-3">
+                        <label for="PhoneNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="PhoneNumber" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="emailInput" class="form-label">Email Address</label>
+                        <label for="" class="req">Required</label>
+                        <input type="email" class="form-control" id="emailInput">
+
+                    </div>
+                    <div class="col mb-3">
+                        <label for="OrderNumber" class="form-label">Order Number</label>
+                        <input type="text" class="form-control" id="OrderNumber">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="CompanyName" class="form-label">Company Name</label>
+                        <input type="text" class="form-control" id="CompanyName">
+                    </div>
+
+                    <div class="col mb-3">
+                        <label for="RMANumber" class="form-label">RMA Number</label>
+                        <input type="text" class="form-control" id="RMANumber">
+                    </div>
 
 
-            </div>
-            <div class="col-md-6">
-                <label for="fname">Phone Number</label>
-                <input type="text" id="number" name="phone" placeholder="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                    required>
-                <label for="lname">Order Number</label>
-                <input type="text" id="quantity" name="" placeholder="Order Number">
-                <label for="fname">RMA Number</label>
-                <input type="text" id="quantity" name="" placeholder="RMA Number">
-            </div>
-            <div class="col-md-12">
-                <label for="subject">Comments / Question</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." rows="5"></textarea>
-                <center><input type="submit" value="Submit form"></center>
-            </div>
+
+                    <div class="col-md-12 mb-3">
+                        <label for="subject" class="form-label">Comments / Question</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            class="form-control"></textarea>
+                    </div>
+
+
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <button class="submit" class="btn btn-primary">Submit Form</button>
+                </div>
+            </form>
+
+            <!-- contact us -->
         </div>
-
-        <div style="height: 74px;"></div>
-
-
-    </section>
-    <!-- contact us -->
+    </div>
 
     <!-- footer -->
+    <div style="height: 74px;"></div>
+
     <footer class="pb-5">
         <div class="container">
 
@@ -251,8 +273,8 @@
                                 <span class="input-group-text ps-0" id="email">
                                     <img src="assets/images/mail2.svg" alt="message image">
                                 </span>
-                                <input type="email" class="form-control" placeholder="Enter Your Email Address"
-                                    aria-label="email" aria-describedby="basic-addon1">
+                                <input type="email" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Enter Your Email Address">
                             </div>
                         </div>
                         <div class="col-12 mb-5">
